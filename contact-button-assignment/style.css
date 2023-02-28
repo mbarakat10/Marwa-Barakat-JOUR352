@@ -1,0 +1,28 @@
+body {
+    background-color:#BEEF9E;
+    text-align:center;
+}
+
+button {
+    background-color:#335145;
+    color:#A6C36F;
+    font-family:'Karla', sans-serif;
+    text-transform:uppercase;
+    width:200px;
+    padding:10px;
+    margin:50px 0px 0px 0px;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color:#1E352F;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
