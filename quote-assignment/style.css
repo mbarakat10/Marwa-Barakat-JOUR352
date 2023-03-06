@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Color 1 - #272838
+Color 2 - #5D536B
+Color 3 - #7D6B91
+Color 4 - #989FCE
+Color 5 - #347FC4
+*/
+
+body {
+    background-color:#989FCE;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:30px;
+    font-family:'Montserrat', sans-serif;
+    color:#5D536B;
+    border:3px solid white;
+    padding: 30px 30px 5px 30px;
+    margin:auto;
+}
+
+#highlight {
+    color:#272838;
+    font-weight:bold;
+}
