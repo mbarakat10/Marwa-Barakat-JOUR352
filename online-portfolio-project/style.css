@@ -7,6 +7,8 @@ Color 4 - #f0f4ef
 Color 5 - #bfcc94
 */
 
+@media {
+    
 .light {
     background-color:#bfcc94;
 }
@@ -21,9 +23,9 @@ Color 5 - #bfcc94
 #headshot {
     width:300px;
     padding:0px;
-    margin:20px 0px 20px 40px;
+    margin:20px 0px 40px 40px;
     border-radius:500px;
-    border: 20px solid ##f0f4ef; <!--why is there no border and how to center?-->
+    border: 5px solid #f0f4ef;
 }
 
 h1 {
@@ -32,6 +34,8 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: auto;
+    line-height: 1.5;
+    font-size: 50px
 }
 
 h2 {
@@ -39,6 +43,8 @@ h2 {
     font-family: 'Consolas', sans-serif;
     text-align: center;
     margin: auto;
+    line-height: 2;
+    font-size: 40px;
 }
 
 #button {
@@ -46,14 +52,14 @@ h2 {
     border:0px;
     border-radius: 20px;
     padding:10px 30px 10px 30px;
-    margin:10px;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 
 #button a {
     color:#344966;
     text-decoration: none;
+    line-height: 2;
 }
 
 .nav-link {
@@ -78,7 +84,8 @@ h3 {
 #title {
     color:#0d1821;
     font-family:'Consolas', sans-serif;
-    font-style: italic;
+    font-weight: bold;
+    padding-top: 25px;
 }
 
 #text {
@@ -89,4 +96,46 @@ h3 {
 #skill {
     color:#0d1821;
     font-family:'Consolas', sans-serif;
+    padding-top: 25px;
+}
+
+.heads {
+    display: block;
+    margin: auto;
+}
+
+#experience {
+    line-height: 2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#skills {
+    line-height: 2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#education {
+    line-height: 2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.indent {
+    text-indent: 15px;
+    font-style: italic;
+}
+    
+}
+
+@media (min-width:576px) {
+    #headshot {
+        margin:20px 0px 20px 40px;
+    }
+    
+    #button {
+        display: block;
+        margin: auto;
+}
 }
