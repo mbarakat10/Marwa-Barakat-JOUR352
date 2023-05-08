@@ -1,4 +1,42 @@
+/*
+MY COLOR PALETTE
+Color 1 - #a63d40
+Color 2 - #f2f4f3
+Color 3 - #717568
+Color 4 - #101935
+Color 5 - #a0ccda
+*/
+
 @media {
+    
+    #topper {
+        background-image: url(messi-rosario-home.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #headphoto {
+        width: 100%;
+    }
+    
+    h1 {
+        color: #101935;
+        margin: 70% 10% 0% 0%;
+        background-color: rgba(255,255,255,0.5);
+    }
+    
+    h2 {
+        color: #a0ccda;
+    }
+    
+    #byline {
+        text-align: center;
+        color: #101935;
+    }
+    
+    p {
+        
+    }
     
 }
 
