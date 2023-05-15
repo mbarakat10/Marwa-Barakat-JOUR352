@@ -6,7 +6,7 @@ Color 3 - #717568
 Color 4 - #101935
 Color 5 - #5C86AD
 
-Fonts
+FONTS
 font-family: 'Kanit', sans-serif;
 font-family: 'Quicksand', sans-serif;
 */
@@ -36,7 +36,7 @@ font-family: 'Quicksand', sans-serif;
     }   
     
     #headcaption {
-        text-align: right;
+        text-align: center;
         font-style: italic;
         font-family: 'Quicksand', sans-serif;
     }
@@ -46,7 +46,23 @@ font-family: 'Quicksand', sans-serif;
         color: #101935;
         font-size: 22px; 
         font-family: 'Kanit', sans-serif;
-        margin: 10px 0px 50px 0px; 
+        margin: 10px 0px 0px 0px; 
+    }
+    
+    #date {
+        text-align: center;
+        margin: 4px 0px 50px 0px;
+        font-size: 18px;
+        color: #5C86AD;
+        font-style: italic;
+    }
+    
+    #dateline{
+        color: #5C86AD;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        float: left;
+        margin-right: 10px; 
     }
     
     p {
@@ -71,22 +87,35 @@ font-family: 'Quicksand', sans-serif;
         float: right;
     }
     
+    .bodyphotos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    .captions {
+        font-style: italic;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
 }
 
-@media (min-width:576px) {
-    
-    #pullquote {
-         width: 50%;
-    }
-}
 
 @media (min-width:992px) {
    
     h1 {
         font-size: 60px;
     }
-}
-
-@media (min-width:1200px) {
+    
+    #headcaption {
+    text-align: right;
+    }
+    
+    #pullquote {
+         width: 50%;
+    }
     
 }
