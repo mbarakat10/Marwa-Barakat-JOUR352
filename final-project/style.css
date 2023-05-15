@@ -4,7 +4,11 @@ Color 1 - #a63d40
 Color 2 - #f2f4f3
 Color 3 - #717568
 Color 4 - #101935
-Color 5 - #a0ccda
+Color 5 - #5C86AD
+
+Fonts
+font-family: 'Kanit', sans-serif;
+font-family: 'Quicksand', sans-serif;
 */
 
 @media {
@@ -15,37 +19,72 @@ Color 5 - #a0ccda
         background-size: cover;
     }
     
-    #headphoto {
-        width: 100%;
-    }
-    
     h1 {
         color: #101935;
-        margin: 70% 10% 0% 0%;
+        margin: 70% 10% 5% 10%;
         background-color: rgba(255,255,255,0.5);
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
     }
     
     h2 {
-        color: #a0ccda;
+        color: #5C86AD;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+    }   
+    
+    #headcaption {
+        text-align: right;
+        font-style: italic;
+        font-family: 'Quicksand', sans-serif;
     }
     
     #byline {
         text-align: center;
         color: #101935;
+        font-size: 22px; 
+        font-family: 'Kanit', sans-serif;
+        margin: 10px 0px 50px 0px; 
     }
     
     p {
-        
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    #pullquote {
+        font-size: 35px;
+        color: #101935;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        margin: 20px 0px 20px 15px;
+        padding: 10px 0px 10px 0px;
+        font-family: 'Quicksand', sans-serif;
+        border-top-style: dashed;
+        border-bottom-style: dashed;
+        border-color: #5C86AD;
+        width: 100%;
+        float: right;
     }
     
 }
 
 @media (min-width:576px) {
     
+    #pullquote {
+         width: 50%;
+    }
 }
 
 @media (min-width:992px) {
-    
+   
+    h1 {
+        font-size: 60px;
+    }
 }
 
 @media (min-width:1200px) {
