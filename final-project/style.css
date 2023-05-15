@@ -14,7 +14,7 @@ font-family: 'Quicksand', sans-serif;
 @media {
     
     #topper {
-        background-image: url(messi-rosario-home.jpg);
+        background-image: url(images/messi-rosario-home.jpg);
         background-position: center;
         background-size: cover;
     }
